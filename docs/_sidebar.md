@@ -1,4 +1,4 @@
-- docsify搭建及部署
+- 使用docsify搭建
     - [简介](zh-cn/README.md)
     
 - C++
