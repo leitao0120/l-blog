@@ -1,3 +1,0 @@
-- docsify使用指南
-    - [简介](zh-cn/README.md)
-    - [安装](zh-cn/docsify/anzhuang.md)
