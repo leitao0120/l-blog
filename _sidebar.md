@@ -1,1 +1,1 @@
-- [介绍](zh-cn/mpv.md)
+- [MPV播放器](zh-cn/mpv.md)
