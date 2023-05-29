@@ -13,15 +13,20 @@ Mpv本身没有图形界面，各种设置需要通过手动编写配置文件�
 
 ```text
 .
-├──doc
-├──installer
-├──mpv
-├──portable_config
-├──d3dcompiler_43.dll
-├──mpv.com
-├──mpv.exe
-└──updater.bat
+├───doc
+├───installer
+├───mpv
+├───portable_config
+│   ├───mpv.conf
+│   └───input.conf
+├───d3dcompiler_43.dll
+├───mpv.com
+├───mpv.exe
+└───updater.bat
 ```
+
+> [!tip]
+> 在<code>portable_config</code>文件夹下，有<code>mpv.conf</code>和<code>input.conf</code>两个配置文件，可以根据自身习惯进行更改。
 
 ##　安装
 
