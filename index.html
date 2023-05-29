@@ -23,7 +23,8 @@
       loadSidebar: true,
       loadNavbar: true,
       coverpage: false,
-      homepage: 'home.md',
+      mergeNavbar: true,
+      homepage: 'zh-cn/mpv.md',
       latex: {
         inlineMath: [['$', '$']],
         displayMath: [['$$', '$$']],
@@ -33,7 +34,24 @@
         auth: ' <strong>-猫猫-</strong>',
         pre: '<hr/>',
         style: 'text-align: center;',
-      }
+      },
+      //添加搜索功能，中文和英文文档同时搜索
+      search: {
+        paths: 'auto',
+        placeholder: {
+          '/': '🔍 搜索',
+          '/zh-cn/': '🔍 搜索',
+          '/en-us/': '🔍 Type to search'
+        },
+        //如果中文和英文文档都没有内容，则返回
+        noData: {
+          '/': '😒 找不到结果',
+          '/zh-cn/': '😒 找不到结果',
+          '/en-us/': '😒 No Results'
+        },
+        depth: 4,         //搜索标题的最大层级
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },//增加搜索框
     }
   </script>
   <!-- Docsify v4 -->
@@ -58,10 +76,14 @@
   <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
 
   <!-- Markdown 引用样式美化 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
+  <script
+    src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
   <!-- 图片缩放 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- 搜索功能 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
