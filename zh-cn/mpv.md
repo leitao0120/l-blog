@@ -26,14 +26,13 @@ Mpv是基于MPlayer、mplayer2和FFmpeg的免费开源媒体播放器软件。�
 └───updater.bat
 ```
 
-> [!note]
-> 在<code>portable_config</code>文件夹下，有<code>mpv.conf</code>和<code>input.conf</code>两个配置文件，可以根据自身习惯进行更改。
+在<code>portable_config</code>文件夹下，有<code>mpv.conf</code>和<code>input.conf</code>两个配置文件，可以根据自身习惯进行更改。
 
 ##　安装
 
 ![](../style/mvp-insatller.png "mpv安装")
 
-> [!note]
-> 打开<code>installer</code>文件，右键以管理员身份运行<code>mpv-install.bat</code>即可。
->
+打开<code>installer</code>文件，右键以管理员身份运行<code>mpv-install.bat</code>即可。
+
+> [!tip]
 > 安装完成后会弹出默认播放器设置，选择mpv。
