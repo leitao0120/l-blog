@@ -3,7 +3,7 @@
 ![](../style/mpv01.jpg)
 
 Mpv是基于MPlayer、mplayer2和FFmpeg的免费开源媒体播放器软件。它可以运行在多个操作系统上，包括类Unix和Windows以及Android。
-播放器本身没有图形界面，各种设置需要通过手动编写配置文件来完成，对于新手来说会不习惯，但熟悉后你会发现比图形界面还好用，播放界面非常简洁，我很喜欢。
+播放器本身没有图形界面，各种设置需要通过手动编写配置文件来完成，对于新手来说会不习惯，但熟悉后你会发现比图形界面还好用，播放界面非常简洁。
 
 - 参考自 [@hooke007](https://hooke007.github.io/index2#mpv-lazy)
 - mpv项目地址 [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
@@ -18,8 +18,6 @@ Mpv是基于MPlayer、mplayer2和FFmpeg的免费开源媒体播放器软件。�
 ├───installer
 ├───mpv
 ├───portable_config
-│   ├───mpv.conf
-│   └───input.conf
 ├───d3dcompiler_43.dll
 ├───mpv.com
 ├───mpv.exe
