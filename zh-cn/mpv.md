@@ -12,19 +12,28 @@ Mpv是基于MPlayer、mplayer2和FFmpeg的免费开源媒体播放器软件。�
 
 ## 包含文件
 
-```text
+```
 .
-├───doc
-├───installer
-├───mpv
-├───portable_config
-├───d3dcompiler_43.dll
-├───mpv.com
-├───mpv.exe
-└───updater.bat
+├─── doc
+├─── installer
+├─── mpv
+├─── portable_config
+├─── d3dcompiler_43.dll
+├─── mpv.com
+├─── mpv.exe
+└─── updater.bat
 ```
 
-在<code>portable_config</code>文件夹下，有<code>mpv.conf</code>和<code>input.conf</code>两个配置文件，可以根据自身习惯进行更改。
+> 重要配置文件都在<code>portable_config</code>文件夹下。
+
+```
+.
+└─── poratble_config
+     ├─── script-opts
+     ├─── scripts
+     ├─── shaders
+     └─── vs
+```
 
 ##　安装
 
