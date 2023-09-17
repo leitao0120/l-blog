@@ -1,4 +1,0 @@
- - **软件分享**
-    - [mpv播放器](zh-cn/mpv.md)
-    - [edge图标删除](zh-cn/uninstall_edge.md)
-    - [win10右键整理](zh-cn/neaten_right.md)
